@@ -10,7 +10,7 @@
 	
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://18.179.36.92:9000/</sonar.host.url>
+		<sonar.host.url>http://18.183.222.180:9000/</sonar.host.url>
 		<maven.compiler.source>1.8</maven.compiler.source>
    		<maven.compiler.target>1.8</maven.compiler.target>
 		<failOnMissingWebXml>false</failOnMissingWebXml> 
@@ -40,11 +40,7 @@
 		  <artifactId>maven-war-plugin</artifactId>
 		  <version>3.3.1</version>
 	     </plugin>
-	     <plugin>
-		    <groupId>org.codehaus.mojo</groupId>
-		    <artifactId>sonar-maven-plugin</artifactId>
-		    <version>3.6.1.1688</version>
-		</plugin>
+	     
 		</plugins>
 	</build>
 	
