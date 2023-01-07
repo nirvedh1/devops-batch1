@@ -47,12 +47,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>deploymentRepo</id>
-		    <url>http://54.199.141.219:8081/repository/sample-snapshot/</url>
+		    <url>http://13.112.56.10:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>deploymentRepo</id>
-		    <url>http://54.199.141.219:8081/repository/sample-release/</url>
+		    <url>http://13.112.56.10:8081/repository/maven-snapshots/</url>
 		</repository>
   	</distributionManagement>
 	
