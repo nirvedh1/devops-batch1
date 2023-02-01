@@ -47,14 +47,14 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>deploymentRepo</id>
-		    <url>http://54.95.214.76:8081/repository/maven-snapshots/</url>
+		    <url>http://54.178.65.229:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>deploymentRepo</id>
-		    <url>http://54.95.214.76:8081/repository/maven-snapshots/</url>
+		    <url>http://54.178.65.229:8081/repository/maven-releases/</url>
 		</repository>
-  	</distributionManagement>
+	</distributionManagement>
 	
 	
 	<pluginRepositories>
